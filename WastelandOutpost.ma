@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: WastelandOutpost.ma
-//Last modified: Fri, Nov 15, 2024 08:49:42 PM
+//Last modified: Fri, Nov 15, 2024 08:53:14 PM
 //Codeset: UTF-8
 requires maya "2025ff03";
 requires "mtoa" "5.4.2.1";
@@ -10,11 +10,11 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Mac OS X 12.7.6";
-fileInfo "UUID" "9F0905D5-854F-46A8-139F-CA9AA9AF72E9";
+fileInfo "UUID" "1EDB13C5-4B43-3BEF-CDA0-719DC2EC3BB3";
 createNode transform -s -n "persp";
 	rename -uid "7E5163A8-C047-E123-B8CB-F9ABD00F263C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 12.20401579895344 12.224852619101055 10.336808977943742 ;
+	setAttr ".t" -type "double3" 13.069175791026682 10.547971267422833 10.709321726556256 ;
 	setAttr ".r" -type "double3" -28.538352729567585 52.199999999999335 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "C3E45020-C645-FBD6-B359-559459FFB948";
